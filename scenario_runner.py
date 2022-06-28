@@ -30,6 +30,9 @@ import time
 import json
 import pkg_resources
 
+sys.path.append('/home/motorai-ccu-1/motor-ai/simulation/carla/PythonAPI/carla/dist/carla-0.9.13-py3.8-linux-x86_64.egg')
+
+
 import carla
 
 from srunner.scenarioconfigs.openscenario_configuration import OpenScenarioConfiguration
